@@ -8,34 +8,55 @@
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
-  background-color: white;
+  /* background-color: white; */
   color: black;
   font-family: 'Montserrat', sans-serif;
 }
-/* ----------- */
+/* ------UTILS----- */
 .space {
   height: 40px;
 }
 .space-1 {
   height: 10px;
 }
-a {
+.hover-eff {
   text-decoration: none;
+  transition: transform 0.2s;
 }
-a:hover {
+.hover-eff:hover {
   font-weight: bold;
   color: var(--primary-color);
   text-decoration: underline;
+
+  transform: scale(1.1);
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  /* box-shadow: 5px 10px 8px #888888; */
+}
+.para {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.extra-padding {
+  padding: 20px;
 }
 /* ------NAV-BAR----- */
 
 .nav-bar {
   display: flex;
   width: 25%;
-  border: 5px solid black;
-  margin-top: 1rem;
+  border: 3px solid black;
+  margin-top: 2rem;
   border-radius: 4px;
+
+  box-shadow: 5px 10px 8px #888888;
 }
+
 .nav-bar div {
   padding: 20px;
   background-color: white;
@@ -57,19 +78,20 @@ a:hover {
   margin-top: 100px;
   padding-left: 60px;
 }
-/* ----------- */
-/* ----------- */
-#img-logo {
-  height: 7%;
-  width: 7%;
-}
+
 #img-1 {
   border-radius: 50%;
   border: 8px solid #60a5fa;
+  transition: transform 0.2s;
+  /* box-shadow: 10px 10px 30px #888888; */
 }
+#img-1:hover {
+  transform: scale(1.1);
+}
+
 /* ----------- */
 
-/* ----------------------- */
+/* ----------CONTAINER------------ */
 .cont-1 {
   display: flex;
   height: 400px;
@@ -159,11 +181,43 @@ h1 {
 }
 
 /* ----------------------- */
-.para {
-  margin-top: 20px;
-  margin-bottom: 20px;
+
+/* ----------footer------------ */
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f0f0;
 }
-.extra-padding {
-  padding: 20px;
+
+.fa {
+  padding: 17px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin: 18px;
 }
-/* ----------CONTAINER-3------------ */
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+.txt-1 {
+  padding: 1px;
+  background-color: #f0f0f0;
+}
