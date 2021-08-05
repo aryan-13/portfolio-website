@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+:root {
+  --primary-color: #60a5fa;
+  --section-color: #dbeafe;
+}
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: white;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+/* ----------- */
+.space {
+  height: 40px;
+}
+.space-1 {
+  height: 10px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  font-weight: bold;
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+/* ------NAV-BAR----- */
+
+.nav-bar {
+  display: flex;
+  width: 25%;
+  border: 5px solid black;
+  margin-top: 1rem;
+  border-radius: 4px;
+}
+.nav-bar div {
+  padding: 20px;
+  background-color: white;
+}
+
+.li-1 {
+  flex: 1;
+}
+.li-2 {
+  flex: 1;
+}
+.li-3 {
+  flex: 1;
+}
+/* ------HOME------ */
+
+.intro {
+  font-size: 65px;
+  margin-top: 100px;
+  padding-left: 60px;
+}
+/* ----------- */
+/* ----------- */
+#img-logo {
+  height: 7%;
+  width: 7%;
+}
+#img-1 {
+  border-radius: 50%;
+  border: 8px solid #60a5fa;
+}
+/* ----------- */
+
+/* ----------------------- */
+.cont-1 {
+  display: flex;
+  height: 400px;
+  margin: 25px;
+  justify-content: center;
+  align-items: center;
+}
+.cont-1 div {
+  padding: 10px;
+}
+.box-1 {
+  flex: 1.5;
+  padding-top: 30px;
+  background-color: white;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+.box-2 {
+  flex: 1;
+  background-color: white;
+}
+
+.handles {
+  display: flex;
+  margin-left: 40px;
+}
+
+.handle-box {
+  background-color: white;
+  text-decoration: NONE;
+  height: 17px;
+  width: 115px;
+  margin: 0 7px;
+  font-size: 14px;
+}
+
+/* ----------------------- */
+.cont-2 {
+  display: flex;
+  flex-direction: column;
+}
+.cont-2 div {
+  width: 87%;
+  text-align: center;
+}
+
+h1 {
+  padding-bottom: 20px;
+}
+/* ----------BUTTONS----------- */
+.primary-link {
+  border-radius: 0.5rem;
+  color: white;
+  background-color: var(--primary-color);
+  text-decoration: none;
+}
+.secondary-link {
+  border-radius: 0.5rem;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  text-decoration: none;
+}
+.link1 {
+  padding: 0.5rem 1rem;
+}
+.primary-link:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+/* ----------------------- */
