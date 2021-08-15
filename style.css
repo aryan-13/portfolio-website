@@ -103,8 +103,9 @@
 	border: 8px solid #60a5fa;
 	transition: transform 0.2s;
 	/* box-shadow: 10px 10px 30px #888888; */
-	height: 80%;
-	width: 99%;
+	/* height: 80%;
+	width: 99%; */
+	width: 100%;
 }
 #img-1:hover {
 	transform: scale(1.1);
@@ -285,8 +286,7 @@ h1 {
 		max-width: 200px;
 	}
 	#img-1 {
-		width: 49%;
-		height: 94%;
+		width: 100%;
 	}
 	.cont-1 {
 		height: auto;
