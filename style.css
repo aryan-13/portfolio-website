@@ -285,12 +285,10 @@ h1 {
 	.nav-cont {
 		max-width: 200px;
 	}
-	#img-1 {
-		width: 100%;
-	}
+
 	.cont-1 {
-		height: auto;
-		margin: 0 auto;
+		height: 300px;
+		max-width: 700px;
 	}
 	.p-res {
 		padding-left: 50px;
@@ -331,8 +329,9 @@ h1 {
 		align-items: center;
 	}
 	#img-1 {
-		width: 49%;
-		height: 94%;
+		/* padding-top: 30px; */
+		margin-top: 30px;
+		width: 50%;
 	}
 	.cont-1 {
 		height: auto;
